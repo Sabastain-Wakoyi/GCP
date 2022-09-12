@@ -1,11 +1,7 @@
-import Controller.Autowired;
-import Controller.RequestMapping;
-import Controller.RestController;
-
 import java.util.logging.Logger;
 
 @RestController
-@RequestMapping("/cart")
+@RequestMapping
 public class ShoppingCartController {
     private final ShoppingCartRepository shoppingCartRepository;
     private final ProductRepository productRepository;
