@@ -14,7 +14,8 @@ public class ShoppingCartController {
 
     @Autowired
     ShoppingCartController(ShoppingCartRepository shoppingCartRepository, ProductRepository productRepository){
-
+    this.shoppingCartRepository = shoppingCartRepository;
+    this.productRepository = productRepository;
     }
 
 
